@@ -1,4 +1,3 @@
-//var Phaser = require('phaser')
 import 'phaser'
 
 var config = {
@@ -37,7 +36,7 @@ function create ()
     var emitter = particles.createEmitter({
         speed: 150,
         scale: { start: 1, end: 0 },
-        blendMode: Phaser.BlendModes.SCREEN  //'ADD'
+        blendMode: Phaser.BlendModes.SCREEN
     });
 
     var logo = this.physics.add.image(400, 100, 'logo');
