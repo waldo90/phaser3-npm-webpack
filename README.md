@@ -12,6 +12,7 @@ A base for building a Phaser 3 application in node / webpack land. Write ES6 gam
 ## Installation
 ```
 npm install
+npm run build
 ```
 
 ## Running
@@ -22,6 +23,6 @@ npm start
 ## Browser
 ```
 localhost:3000   phaser app
-localhost:3001   
-localhost:3002   Browser Sync admin UI
+localhost:3001   Browsersync proxy
+localhost:3002   Browsersync admin UI
 ```

@@ -3,9 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon node ./bin/www & browser-sync start --proxy 'localhost:3000' --files 'public,views'",
-    "start": "node ./bin/www & browser-sync start",
-    "build": "webpack --progress --mode=production",
+    "start": "node ./bin/www & browser-sync start --proxy localhost:3000 --files 'public,views'",
+    "build": "webpack --progress --mode=development",
     "watch": "webpack --progress --watch"
   },
   "dependencies": {
