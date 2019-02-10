@@ -18,3 +18,10 @@ npm install
 ```
 npm start
 ```
+
+## Browser
+```
+localhost:3000   phaser app
+localhost:3001   
+localhost:3002   Browser Sync admin UI
+```
