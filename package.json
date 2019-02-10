@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "nodemon node ./bin/www & browser-sync start --proxy 'localhost:3000' --files 'public,views'",
+    "start": "node ./bin/www & browser-sync start",
     "build": "webpack --progress --mode=production",
     "watch": "webpack --progress --watch"
   },
@@ -13,8 +14,8 @@
     "express": "~4.16.0",
     "http-errors": "~1.6.2",
     "morgan": "~1.9.0",
-    "phaser": "^3.15.1",
-    "pug": "2.0.0-beta11"
+    "phaser": "^3.16.1",
+    "pug": "^2.0.0-beta11"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
